@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif;
+}
+body{
+    width-max: 600px;
+    margin: auto 50px;
+    border: 2px black;
+    padding: 10px;
+}
+.login{
+    margin: 10px 5px;
+    border: none;
+    background-color: white;
+}
+.login h1{
+    color: black;
+    text-align: center;
+    margin: auto 10px;
+}
+.login h3{
+    color: cornflowerblue;
+    text-align: left;
+}
+.login h3:hover {
+    color: turquoise;
+}
+.login input{
+    margin: 3px;
+    border: 1px darkgrey;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.login input:hover {
+    border: #555555;
+}
+.login button{
+    margin: 10px 3px 3px 3px;
+    background-color: dodgerblue;
+    text-align: center;
+    color: black;
+}
+.login button:hover {
+    background-color: lightblue;
+}
